@@ -6,15 +6,15 @@ import { CrudGetComponent } from './crud-get/crud-get.component'
 
 const routes: Routes = [
   {
-    path: 'bussines/create',
+    path: 'business/create',
     component: CrudAddComponent
   },
   {
-    path: 'bussines/edit/:id',
+    path: 'business/edit/:id',
     component: CrudEditComponent
   },
   {
-    path: 'bussines',
+    path: 'business',
     component: CrudGetComponent
   }
 ]
